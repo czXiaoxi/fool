@@ -5,10 +5,7 @@ import com.google.gson.Gson;
 import com.google.gson.JsonParser;
 import sun.jvm.hotspot.utilities.soql.MapScriptObject;
 
-import java.util.Collections;
-import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
+import java.util.*;
 
 /**
  * Created by xi on 7/14/17.
@@ -30,6 +27,16 @@ public class test {
 
         double sqrt = Math.sqrt(2);
         System.out.println(sqrt);
+
+
+       List<Integer> as = Lists.newArrayList();
+        for (Integer integer : as) {
+            System.out.println(integer);
+        }
+
+        String  test1 = "test";
+        String  test2 = "test";
+        System.out.println(Objects.equals(test1, test2));
 
     }
 }
